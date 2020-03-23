@@ -1,6 +1,6 @@
 ﻿# 2.1 Spurningar (4%)
 
-### 1. Afhverju er 'getElementById()' fljótleglegasta aðferðin?
+### 1. Afhverju er `getElementById()` fljótleglegasta aðferðin?
 
         Af því að id er unique og þá þarf ekki leita meira þegar það er fundið
 
@@ -18,7 +18,7 @@
 
         "True" og "False" í AddEventListener er boolean sem segir hvort þurfi að grípa event eða ekki. Ef AddEventListener er "True" þá er hann Capture og fer frá top elementinu og niður. Ef það er "False" þá er það bubbling og fer frá neðsta elementinu og upp.”
 
-### 4. this vísar í Event listener á html element en ekki á object. Þú getur notað 'bind()' til að breyta því. Leystu eftirfarandi kóðadæmi með notkun á 'bind()' til að birta í console “My name is Sam“ en ekki undefined.
+### 4. this vísar í Event listener á html element en ekki á object. Þú getur notað `bind()` til að breyta því. Leystu eftirfarandi kóðadæmi með notkun á `bind()` til að birta í console “My name is Sam“ en ekki undefined.
 
         let Person = {
           name: 'Sam',
@@ -42,7 +42,7 @@
 
 ** Í Javascript:**
 
-### 1. Notaðu 'querySelector()' til að velja málsgrein nr 1. og litaðu textann rauðan.
+### 1. Notaðu `querySelector()` til að velja málsgrein nr 1. og litaðu textann rauðan.
 
         document.querySelector("p").style.color = "red";
 
@@ -61,11 +61,11 @@
             element.textContent = "paragraph "+ i;
         });
 
-### 3. Bættu við efst með 'InnerHTML' '<h1>' með textanum Verkefni 2.2.
+### 3. Bættu við efst með `InnerHTML` `<h1>` með textanum Verkefni 2.2.
 
         document.body.innerHTML = "<h1>Verkefni 2.2</h1>" + document.body.innerHTML;
 
-### 4. Bættu við neðst með 'createElement()' og 'append()' málsgrein með nafninu þínu.
+### 4. Bættu við neðst með `createElement()` og `append()` málsgrein með nafninu þínu.
 
         let x = document.createElement("p");
         x.innerHTML = "Anh";
