@@ -6,8 +6,8 @@
 
 ### 2. Hver er munurinn á static og live NodeList?
 
-        live: 		Breytingar í DOM er uppfært sjálfvirkt og aðgengilegt í safni (e. collection).
-		static:		Breytingar í DOM hefur ekki áhrif á innihald í safni.
+        live: Breytingar í DOM er uppfært sjálfvirkt og aðgengilegt í safni (e. collection).
+		static:	Breytingar í DOM hefur ekki áhrif á innihald í safni.
 
         - Öll HTMLCollections eru live
 		- NodeList objects eru static eða live
@@ -33,13 +33,13 @@
 
 # 2.2 DOM (4%)
 ** Í html:**
-'''
+
         <p>málsgrein 1</p>
         <p>málsgrein 2</p>
         <div>div 1</div>
           <p>málsgrein 3</p>
         <div>div 2</div>
-'''
+
 ** Í Javascript:**
 
 ### 1. Notaðu 'querySelector()' til að velja málsgrein nr 1. og litaðu textann rauðan.
