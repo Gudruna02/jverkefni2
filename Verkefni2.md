@@ -52,13 +52,21 @@
         document.querySelectorAll("p")[1].textContent = "paragraph 2";
         document.querySelectorAll("p")[2].textContent = "paragraph 3";
 
+        eða
+
+        let i = 0;
+        let p = document.querySelectorAll("p");
+        p.forEach(element => {
+            i++;
+            element.textContent = "paragraph "+ i;
+        });
+
 ### 3. Bættu við efst með 'InnerHTML' '<h1>' með textanum Verkefni 2.2.
 
-        document.querySelector("p").innerHTML = "<h1>Verkefni 2.2</h1>" + document.querySelector("p").innerHTML;
-        document.querySelector("h1").style.color = "black"; (ef þurfi, af því texti var rauður)
+        document.body.innerHTML = "<h1>Verkefni 2.2</h1>" + document.body.innerHTML;
 
 ### 4. Bættu við neðst með 'createElement()' og 'append()' málsgrein með nafninu þínu.
 
-        var x = document.createElement("p");
+        let x = document.createElement("p");
         x.innerHTML = "Anh";
         document.body.append(x);
