@@ -10,7 +10,7 @@
         static: Breytingar í DOM hefur ekki áhrif á innihald í safni.
 
         - Öll HTMLCollections eru live
-		- NodeList objects eru static eða live
+        - NodeList objects eru static eða live
 
 ### 3. Hver er munurinn á true og false í AddEventListener?
         elem.addEventListener("click", handlerFunction, true);
