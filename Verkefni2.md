@@ -7,7 +7,7 @@
 ### 2. Hver er munurinn á static og live NodeList?
 
         live: Breytingar í DOM er uppfært sjálfvirkt og aðgengilegt í safni (e. collection).
-        static:	Breytingar í DOM hefur ekki áhrif á innihald í safni.
+        static: Breytingar í DOM hefur ekki áhrif á innihald í safni.
 
         - Öll HTMLCollections eru live
 		- NodeList objects eru static eða live
